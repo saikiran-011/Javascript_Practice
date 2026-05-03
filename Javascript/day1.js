@@ -49,3 +49,9 @@ Object [console] {
 
 A variable is like a container that stores data so you can use it later in your program.
 */
+
+let numbers;
+
+numbers = 22;
+
+console.log(numbers);
