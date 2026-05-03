@@ -45,13 +45,40 @@ Object [console] {
 }
 */ 
 
+
+
+
 /* Variables 
 
 A variable is like a container that stores data so you can use it later in your program.
 */
+
+
+/* Why Variables ?
+
+-> For improving reusability, 
+-> To ease the maintenance
+-> To improve readability
+*/ 
+
 
 let numbers;
 
 numbers = 22;
 
 console.log(numbers);
+
+
+
+var myName;   // Declaration of variable
+
+myName = "Sai Kiran";  // Initialization of variable 
+
+console.log(myName);
+
+
+
+const PI = 3.14; // Const should be declared and initialize in the same line.
+
+console.log(PI); // Const variables cannot be changed. we need to reassign a value to it.(We cannot reinitialize the variable.)
+
