@@ -80,5 +80,5 @@ console.log(myName);
 
 const PI = 3.14; // Const should be declared and initialize in the same line.
 
-console.log(PI); // Const variables cannot be changed. we need to reassign a value to it.(We cannot reinitialize the variable.)
+console.log(PI); // Const variables cannot be changed. A const variable can be initialized only once. After that, it cannot be assigned a new value.
 
