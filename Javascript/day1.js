@@ -50,7 +50,7 @@ Object [console] {
 
 /* Variables 
 
-A variable is like a container that stores data so you can use it later in your program.
+A variable is a named location that allows a program to store, retrieve, and update information while it is running. Variables make programs dynamic, reusable, readable, and easier to maintain.
 */
 
 
@@ -60,6 +60,19 @@ A variable is like a container that stores data so you can use it later in your 
 -> To ease the maintenance
 -> To improve readability
 */ 
+
+
+/* Naming conventions for variables 
+
+1.Why do naming conventions exist? 
+- They make code easy for humans to read and understand.
+
+2.What Makes a Variable Name Good? 
+- A good variable name clearly tells the reader what information it stores.
+
+3.What are JavaScript naming rules?
+
+*/
 
 
 let numbers;
