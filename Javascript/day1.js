@@ -71,6 +71,26 @@ A variable is a named location that allows a program to store, retrieve, and upd
 - A good variable name clearly tells the reader what information it stores.
 
 3.What are JavaScript naming rules?
+-   1.Variable names can contain
+        Letters (a-z, A-Z)
+        Digits (0-9)
+        Underscore (_)
+        Dollar sign ($)
+
+    2.Cannot start with a number
+
+    3.Can start with
+    A letter
+    _
+    $
+
+    4.No spaces
+
+    5.No special characters
+
+    6.Reserved keywords cannot be used
+
+    7.JavaScript is case-sensitive
 
 */
 
