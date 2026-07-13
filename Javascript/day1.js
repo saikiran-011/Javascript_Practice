@@ -1,11 +1,16 @@
 
-/* Variables 
+/* 
+
+Variables 
 
 A variable is a named location that allows a program to store, retrieve, and update information while it is running. Variables make programs dynamic, reusable, readable, and easier to maintain.
+
 */
 
 
-/* Why Variables ?
+/* 
+
+Why Variables ?
 
 -> For improving reusability, 
 -> To ease the maintenance
@@ -13,7 +18,9 @@ A variable is a named location that allows a program to store, retrieve, and upd
 */ 
 
 
-/* Naming conventions for variables 
+/* 
+
+Naming conventions for variables 
 
 (Naming Convention != Naming Rules)  
 
@@ -32,34 +39,56 @@ Rule  = A rule is a restriction defined by the programming language. If you brea
 Rules are for the computer. Conventions are for humans.
 
 
-1.Why do naming conventions exist? 
-- They make code easy for humans to read and understand.
+1. Why do naming conventions exist? 
+-- They make code easy for humans to read and understand.
 
-2.What Makes a Variable Name Good? 
-- A good variable name clearly tells the reader what information it stores.
+2. What Makes a Variable Name Good? 
+-- A good variable name clearly tells the reader what information it stores.
 
-3.What are JavaScript naming rules?
--   1.Variable names can contain
-        Letters (a-z, A-Z)
-        Digits (0-9)
-        Underscore (_)
-        Dollar sign ($)
+3. What are JavaScript naming rules?
 
-    2.Cannot start with a number
+--->3.1 --- Variable names can contain
+            Letters (a-z, A-Z)
+            Digits (0-9)
+            Underscore (_)
+            Dollar sign ($)
 
-    3.Can start with
-    A letter(a-z) (A-z)
-    (_)Underscore
-    ($)Dollar sign
+    3.2 --- Cannot start with a number
 
-    4.No spaces
+    3.3 --- Can start with
+            A letter(a-z) (A-z)
+            (_)Underscore
+            ($)Dollar sign
 
-    5.No special characters
+    3.4 --- No spaces
 
-    6.Reserved keywords cannot be used
+    3.5 --- No special characters
 
-    7.JavaScript is case-sensitive
+    3.6 --- Reserved keywords cannot be used
 
+    3.7 --- JavaScript is case-sensitive
+
+4. What are Variable Naming Conventions for JavaScript?
+
+--->4.1 --- Use camelCase for Variables
+
+    4.2 --- Use Meaningful Names
+
+    4.3 --- Avoid Single-Letter Variable Names
+
+    4.4 --- Boolean Variables Should Sound Like Questions
+
+    4.5 --- Use Nouns for Variables
+
+    4.6 --- Use Plural Names for Arrays
+
+    4.7 --- Don't Add the Data Type to the Name
+
+    4.8 --- Keep Names Short but Descriptive
+
+    4.9 --- Use Consistent Naming
+
+    4.10 -- Name Variables by Their Purpose
 */
 
 
