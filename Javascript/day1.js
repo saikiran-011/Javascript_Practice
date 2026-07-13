@@ -1,52 +1,3 @@
-/* First Code */ 
-
-console.log("Hello Everyone");
-console.log("My Name is Sai Kiran Budumuru");
-
-/*
-console is a built-in object provided by the runtime (browser/Node)
-that allows JavaScript to send output for debugging and inspection. 
-
---console is a object 
---log is function of the console object (it sends the data to terminal if using Node Js or Browser console if using browser)
-*/
-
-console.log(console);
-
-/* 
-Output is
-
-Object [console] {
-  log: [Function: log],
-  info: [Function: info],
-  debug: [Function: debug],
-  warn: [Function: warn],
-  error: [Function: error],
-  dir: [Function: dir],
-  time: [Function: time],
-  timeEnd: [Function: timeEnd],
-  timeLog: [Function: timeLog],
-  trace: [Function: trace],
-  assert: [Function: assert],
-  clear: [Function: clear],
-  count: [Function: count],
-  countReset: [Function: countReset],
-  group: [Function: group],
-  groupEnd: [Function: groupEnd],
-  table: [Function: table],
-  dirxml: [Function: dirxml],
-  groupCollapsed: [Function: groupCollapsed],
-  Console: [Function: Console],
-  profile: [Function: profile],
-  profileEnd: [Function: profileEnd],
-  timeStamp: [Function: timeStamp],
-  context: [Function: context],
-  createTask: [Function: createTask]
-}
-*/ 
-
-
-
 
 /* Variables 
 
@@ -64,6 +15,23 @@ A variable is a named location that allows a program to store, retrieve, and upd
 
 /* Naming conventions for variables 
 
+(Naming Convention != Naming Rules)  
+
+Convention = A convention is an agreed coding style followed by developers to make code consistent, readable, and maintainable. Breaking a convention usually won't stop the program from running, but it makes the code harder for humans to read. (Done between humans nothing to do with machines)
+--> Who defines it? → Developers / Community / Team
+--> Who enforces it? → Humans (through code reviews, team standards, linters)
+--> Who benefits? → Developers
+
+
+Rule  = A rule is a restriction defined by the programming language. If you break it, the program will produce an error or fail to work correctly. 
+--> Who defines it? → JavaScript
+--> Who enforces it? → JavaScript Engine
+--> Who checks it? → Computer
+
+
+Rules are for the computer. Conventions are for humans.
+
+
 1.Why do naming conventions exist? 
 - They make code easy for humans to read and understand.
 
@@ -80,9 +48,9 @@ A variable is a named location that allows a program to store, retrieve, and upd
     2.Cannot start with a number
 
     3.Can start with
-    A letter
-    _
-    $
+    A letter(a-z) (A-z)
+    (_)Underscore
+    ($)Dollar sign
 
     4.No spaces
 

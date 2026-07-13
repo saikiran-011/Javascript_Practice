@@ -1,32 +1,48 @@
-console.log('Hello');
-console.log("Everyone");
+/* First Code */ 
 
-let num = 100.5;
-console.log(typeof num);
+console.log("Hello Everyone");
+console.log("My Name is Sai Kiran Budumuru");
 
-let name = "sai";
-console.log(typeof name);
+/*
+console is a built-in object provided by the runtime (browser/Node)
+that allows JavaScript to send output for debugging and inspection. 
 
-const num1 = 1234567890987654321n;
-console.log(typeof num1);
+--console is a object 
+--log is function of the console object (it sends the data to terminal if using Node Js or Browser console if using browser)
+*/
 
-const value = true;
-console.log(typeof value);
+console.log(console);
 
-const check = Boolean(0);
-console.log(check);
+/* 
+Output is
 
-let no_value;
-console.log(no_value);
-
-const value1 = null;
-console.log(value1);
-
-const obj = {
-  name : 'sai',
-  age : 24,
-  gender : "male"
+Object [console] {
+  log: [Function: log],
+  info: [Function: info],
+  debug: [Function: debug],
+  warn: [Function: warn],
+  error: [Function: error],
+  dir: [Function: dir],
+  time: [Function: time],
+  timeEnd: [Function: timeEnd],
+  timeLog: [Function: timeLog],
+  trace: [Function: trace],
+  assert: [Function: assert],
+  clear: [Function: clear],
+  count: [Function: count],
+  countReset: [Function: countReset],
+  group: [Function: group],
+  groupEnd: [Function: groupEnd],
+  table: [Function: table],
+  dirxml: [Function: dirxml],
+  groupCollapsed: [Function: groupCollapsed],
+  Console: [Function: Console],
+  profile: [Function: profile],
+  profileEnd: [Function: profileEnd],
+  timeStamp: [Function: timeStamp],
+  context: [Function: context],
+  createTask: [Function: createTask]
 }
+*/ 
 
-console.log(obj);
 
