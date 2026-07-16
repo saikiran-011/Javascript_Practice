@@ -1,4 +1,6 @@
 
+// let Keyword
+
 let numbers; // Declaration of variable
 
 numbers = 22; // Initialization of variable
@@ -12,6 +14,9 @@ age = 25; // ✅ Allowed
 
 let age = 26; // ❌ Error
 
+
+
+ // var Keyword
 
 var myName;   // Declaration of variable
 
@@ -27,6 +32,8 @@ age = 25;   // ✅ Allowed
 var age = 26; // ✅ Also allowed
 
 
+
+  // const keyword
 
 const PI = 3.14; // Const should be declared and initialize in the same line.
 
