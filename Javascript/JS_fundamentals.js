@@ -1,4 +1,24 @@
 
+
+ // var Keyword
+
+var myName;   // Declaration of variable
+
+myName = "Sai Kiran";  // Initialization of variable 
+
+console.log(myName);
+
+
+var age = 24;
+
+age = 25;   // ✅ Allowed
+
+var age = 26; // ✅ Also allowed
+
+
+
+
+
 // let Keyword
 
 let numbers; // Declaration of variable
@@ -16,20 +36,6 @@ let age = 26; // ❌ Error
 
 
 
- // var Keyword
-
-var myName;   // Declaration of variable
-
-myName = "Sai Kiran";  // Initialization of variable 
-
-console.log(myName);
-
-
-var age = 24;
-
-age = 25;   // ✅ Allowed
-
-var age = 26; // ✅ Also allowed
 
 
 
