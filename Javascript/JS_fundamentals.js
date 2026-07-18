@@ -1,5 +1,9 @@
 
 
+// Scope defines where you are allowed to use a variable.
+
+
+
  // var Keyword
 
 var myName;   // Declaration of variable
