@@ -40,5 +40,11 @@ When multiple variables have the same name, JavaScript always uses the one in th
 
 When JavaScript searches for a variable, it always uses the nearest matching variable. Once it finds one, it stops searching.
 
+A const variable can be created only once, and its value cannot be reassigned. Any attempt to change it results in an error.
+
+A const variable must be initialized at the time it is created because JavaScript needs a value to protect from future reassignment.
+
+A let or const variable exists as soon as JavaScript enters its scope, but it cannot be accessed until the declaration statement executes. The period between entering the scope and initialization is called the Temporal Dead Zone (TDZ).
+
 
 */

@@ -6,6 +6,7 @@
 
  // var Keyword
 
+ // ✅ var — function-scoped, allows redeclaration (legacy behavior).
 
  // Can be redeclared and reassigned in the same scope. (which leads to unexpected errors as code grows)
 
@@ -30,6 +31,7 @@ var age = 26; // ✅ Also allowed
 
  // let Keyword
 
+ // ✅ let — block-scoped, no redeclaration, allows reassignment.
 
  // No redeclaration in the same scope, but we can reassign the value in the same scope
 
@@ -53,6 +55,8 @@ let age = 26; // ❌ Error
 
 
   // const keyword
+
+  // ✅ const — block-scoped, no redeclaration, no reassignment, and must be initialized.
 
   // Both redeclaration and reassigning are not allowed.
 
