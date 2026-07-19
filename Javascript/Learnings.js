@@ -25,7 +25,20 @@ A variable should exist only where it is needed and be visible only where it is 
     Less likely to contain bugs
 
 Functions create their own scope. if, for, and while blocks do not create a new scope for var.
-    
+
+Variables with the same name can exist in different scopes without conflicting with each other.
+--> This is a fundamental principle in almost every programming language.
+
+When JavaScript needs a variable, it first searches the current scope. If it isn't found, it continues searching in the enclosing (outer) scope until it either finds the variable or reaches the global scope.
+--> This is known as Variable lookup.
+
+As software grows, reducing the visibility of variables and preventing accidental redeclaration makes code safer and easier to maintain.
+
+let is used only when creating a variable. Once the variable exists, you update it by assigning a new value without using let again.
+
+When multiple variables have the same name, JavaScript always uses the one in the nearest (current) scope. The outer variable is hidden while the inner one exists.
+
+When JavaScript searches for a variable, it always uses the nearest matching variable. Once it finds one, it stops searching.
 
 
 */

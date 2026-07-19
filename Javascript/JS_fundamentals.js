@@ -6,6 +6,11 @@
 
  // var Keyword
 
+
+ // Can be redeclared and reassigned in the same scope. (which leads to unexpected errors as code grows)
+
+ // Ignores boundaries 
+
 var myName;   // Declaration of variable
 
 myName = "Sai Kiran";  // Initialization of variable 
@@ -23,7 +28,11 @@ var age = 26; // ✅ Also allowed
 
 
 
-// let Keyword
+ // let Keyword
+
+
+ // No redeclaration in the same scope, but we can reassign the value in the same scope
+
 
 let numbers; // Declaration of variable
 
@@ -44,6 +53,10 @@ let age = 26; // ❌ Error
 
 
   // const keyword
+
+  // Both redeclaration and reassigning are not allowed.
+
+  // Declaration and value assigning should be on same line and it can never be updated.
 
 const PI = 3.14; // Const should be declared and initialize in the same line.
 
