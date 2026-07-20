@@ -10,7 +10,7 @@
 
  // Can be redeclared and reassigned in the same scope. (which leads to unexpected errors as code grows)
 
- // Ignores boundaries 
+ // Ignores boundaries and accessible before declaration.
 
 var myName;   // Declaration of variable
 
