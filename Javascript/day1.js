@@ -98,6 +98,8 @@ Rules are for the computer. Conventions are for humans.
 
 
 
+
+
  // var Keyword
 
  // ✅ var — function-scoped, allows redeclaration (legacy behavior).
@@ -105,6 +107,8 @@ Rules are for the computer. Conventions are for humans.
  // Can be redeclared and reassigned in the same scope. (which leads to unexpected errors as code grows)
 
  // Ignores boundaries and accessible before declaration.
+
+
 
 var myName;   // Declaration of variable
 
@@ -155,6 +159,8 @@ let age = 26; // ❌ Error
   // Both redeclaration and reassigning are not allowed.
 
   // Declaration and value assigning should be on same line and it can never be updated.
+
+
 
 const PI = 3.14; // Const should be declared and initialize in the same line.
 
