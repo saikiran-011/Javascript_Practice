@@ -46,5 +46,25 @@ A const variable must be initialized at the time it is created because JavaScrip
 
 A let or const variable exists as soon as JavaScript enters its scope, but it cannot be accessed until the declaration statement executes. The period between entering the scope and initialization is called the Temporal Dead Zone (TDZ).
 
+JavaScript executes code in two phases:
+--> Memory Creation Phase – JavaScript scans the entire scope and prepares memory for variables and functions.
+--> Code Execution Phase – JavaScript executes the code line by line.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 */
