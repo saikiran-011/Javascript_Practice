@@ -8,6 +8,10 @@ Programming languages are designed for humans. Machine instructions are designed
 Programming languages are designed by humans to solve human problems. Keywords are design choices, not universal truths.
 --> Keywords like var, let, if, and function are chosen by language designers. Another language could choose completely different words.
 
+Programming language behavior is a design choice based on the language's goals and philosophy. Different languages solve similar problems in different ways.
+
+Every programming language performs some form of code analysis before execution. The difference lies in how much analysis is done, when it is done (compile time or runtime), and what information is prepared.
+
 Programming languages evolve because software evolves.
 --> New features are usually introduced because developers encounter new problems—not because the old features suddenly became useless.
 
