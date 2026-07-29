@@ -54,6 +54,8 @@ JavaScript executes code in two phases:
 --> Memory Creation Phase – JavaScript scans the entire scope and prepares memory for variables and functions.
 --> Code Execution Phase – JavaScript executes the code line by line.
 
+Function hoisting depends on how the function is declared, not on the fact that it is a function.
+
 
 
 
