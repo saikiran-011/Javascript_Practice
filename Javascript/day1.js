@@ -168,6 +168,8 @@ console.log(PI); // Const variables cannot be changed. A const variable can be i
 
 const age = 24; // ✅ Allowed
 
-age = 25; // ❌ Error
+// const age;
 
-const age;  // ❌ Error
+// age = 25; ❌ Error
+
+ 
